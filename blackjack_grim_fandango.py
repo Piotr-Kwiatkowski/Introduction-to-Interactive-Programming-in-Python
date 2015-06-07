@@ -1,4 +1,4 @@
-#adres: http://www.codeskulptor.org/#user39_hhiV1xKZik_21.py
+#link: http://www.codeskulptor.org/#user39_hhiV1xKZik_21.py
 
 """ Blackjack -- Grim Fandango Edition
 

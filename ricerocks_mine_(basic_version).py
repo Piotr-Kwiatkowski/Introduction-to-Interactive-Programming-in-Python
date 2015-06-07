@@ -1,4 +1,4 @@
-# adres http://www.codeskulptor.org/#user39_AFyKCBIJ6N_8.py
+#link: http://www.codeskulptor.org/#user39_AFyKCBIJ6N_8.py
 
 # implementation of Spaceship - program template for RiceRocks
 import simplegui
