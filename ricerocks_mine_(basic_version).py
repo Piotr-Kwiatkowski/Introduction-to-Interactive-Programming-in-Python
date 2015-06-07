@@ -1,9 +1,14 @@
 #link: http://www.codeskulptor.org/#user39_AFyKCBIJ6N_8.py
 
-# implementation of Spaceship - program template for RiceRocks
-import simplegui
-import math
-import random
+try:
+    import simplegui
+	import math
+	import random
+except ImportError:
+    import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
+	import SimpleGUICS2Pygame.math as math
+	import SimpleGUICS2Pygame.random as random
+	#FIXME...
 
 # globals for user interface
 WIDTH = 800

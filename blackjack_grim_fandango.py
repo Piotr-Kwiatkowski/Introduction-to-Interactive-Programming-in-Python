@@ -15,8 +15,12 @@
     - "place your bets" co 3. gre?
 """
 
-import simplegui
-import random
+try:
+    import simplegui
+	import random
+except ImportError:
+    import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
+	import SimpleGUICS2Pygame.random as random
 
 # load sounds
 win = simplegui.load_sound("https://www.dropbox.com/s/bd6p507a9hy6wdb/invitation-crowdcheer.wav?dl=1")
